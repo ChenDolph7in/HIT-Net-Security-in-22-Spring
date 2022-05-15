@@ -1,0 +1,2 @@
+gcc client.c -o client -lcrypto
+gcc -I/usr/include/mysql server.c -L/usr/lib/mysql -lmysqlclient -o server -lpthread -lcrypto
